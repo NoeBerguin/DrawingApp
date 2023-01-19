@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/purple-green.css';
+@import '../src/app/style/color.scss';
+
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.ng-image-slider .ng-image-slider-container .main .main-inner .img-div .caption,
+.ng-image-slider .ng-image-slider-container .main .icons {
+    background-color: black !important;
+}
+
+.ng-image-slider .ng-image-slider-container .main .main-inner .img-div .caption {
+    text-align: left !important;
+    white-space: pre-wrap;
+}
+
+.sucess-snackbar {
+    color: #4f8a10 !important;
+    background-color: #dff2bf !important;
+}
+
+.error-snackbar {
+    color: #d8000c !important;
+    background-color: #ffd2d2 !important;
+}
+
+.image-radio-button .mat-radio-container {
+    display: none !important;
+}
+
+.currentAlignment .mat-radio-label-content mat-icon,
+.isStyleApplied .mat-radio-label-content mat-icon {
+    background-color: white;
+    color: $primaryColor;
+}
